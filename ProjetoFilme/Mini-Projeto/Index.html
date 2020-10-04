@@ -39,6 +39,11 @@
                         </tr>
                     </thead>
                     <tbody id="body-table">
+                        <tr id="Filmes">
+                            <td ></td>
+                            <td ></td>
+                        </tr>
+                        
 
                     </tbody>
                 </table>
@@ -70,33 +75,32 @@
 
 <script>
 
-    const ul = document.getElementById('Filmes');
-    const url = 'http://localhost:5000/api/Filmes'
-
     function renderFilmes() {
+        const table = document.getElementById('Filmes');
+        const url = 'http://localhost:5000/api/Filmes'
 
-        var myHeaders = new Headers();
+        fetch(url)
+            .then((resp) => resp.json())
+            .then(function (data) {
+                console.log(data)
 
-        myHeaders.append('Content-Type', 'text/json', 'Access-Control-Allow-Origin');
-        fetch(url, {
-            method: 'get', //método  http para tipo de acesso //delete //post // put,
-            //mode: 'no-cors', // 'cors' by default
-            headers: myHeaders
-        })
-            .then(function (response) {
 
-                response.text()
-                    .then(function (result) {
-                        console.log(response.status)
-                        var jsonResposta = JSON.parse(result);
-                        console.log(jsonResposta);
-                        
-                    })
+                return data.map(function (filme) {
+
+                    let p = document.createElement('td');
+                    p.innerHTML = `${filme.titulo}`
+                    let p2 = document.createElement('td');
+                    p2.innerHTML = `${filme.idGeneroNavigation.nome}`
+                    table.appendChild(p)
+                    table.appendChild(p2)
+                })
+
             })
-            .catch(function (err) {
-                console.error(err); //retornar um erro 
-            });
-    } 
+            .catch((error) => {
+                console.log('ops' + error)
+            })
+    }
+
 </script>
 
 </html>

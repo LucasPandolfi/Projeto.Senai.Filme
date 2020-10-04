@@ -27,8 +27,6 @@
       align-items: center;
       padding: 2rem;
       justify-content: space-evenly;
-      
-    
   }
 
   .conteudo > div:nth-child(1) img{
@@ -40,10 +38,6 @@
     
     
   }
-
-   
-    
-  
 
   .conteudo > div:nth-child(1) h1{
       font-weight: lighter;

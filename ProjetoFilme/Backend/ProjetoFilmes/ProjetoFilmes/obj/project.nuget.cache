@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JBD22lVDUG8Tc52EwnOH52UIQJk+FkQTx9QI7lFoOxAVbz24yjftvAyZqzCJ68hFQS6hTwDYe1sXth5kNzy8Pw==",
+  "dgSpecHash": "Bk+BAvoqFD58A1pk+tw2OrV3dw2Aycjdg+cNZdCAPeMGBYO9Ko5TDeZAgN35woMePdu0bfc29FILzdAVvAXGLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto.Senai.Filme\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

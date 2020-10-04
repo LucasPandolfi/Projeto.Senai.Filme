@@ -12407,11 +12407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto.Senai.Filme\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
       "projectName": "FilmesWebApi",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto.Senai.Filme\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto.Senai.Filme\\ProjetoFilme\\Backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
